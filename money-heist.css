@@ -1,0 +1,63 @@
+.heist-body{
+    background: url(img/wall2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+}
+.heist-container{
+    padding: 1%;
+    margin: 2%;
+    background: rgba(0, 0, 0, 0.767);
+    border-radius: 20px;
+    color: aliceblue;
+}
+.heist-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.heist-text{
+    background: rgba(255, 255, 255, 0.075);
+    display: inline;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.heist-professor{
+    height: 200px;
+    width: 250px;
+}
+.heist-card-containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+.mask{
+    height: 100px;
+    width: 120px;
+}
+.heist-butt-header{
+    background: rgba(255, 255, 255, 0.075);
+    text-align: center;
+    border-radius: 20px;
+}
+.heist-butt{
+    width: 150px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.075);
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.task{
+    display: none;
+    grid-template-columns: 15% 1fr 15%;
+}
+.task p{
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 20px;
+}
